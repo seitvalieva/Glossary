@@ -41,14 +41,14 @@
         Toutes les superglobales sont du type tableau et sont disponibles dans n'importe quel script PHP. 
         Elles sont écrites en majuscules et commencent toutes par un underscore ($_GET). 
         Les superglobales qui existent en PHP:
-        -$_GET
-        -$_POST
-        -$_COOKIE
-        -$_REQUEST
-        -$_SESSION
-        -$_FILES
-        -$_ENV
-        -$_SERVER
+        * $_GET
+        * $_POST
+        * $_COOKIE
+        * $_REQUEST
+        * $_SESSION
+        * $_FILES
+        * $_ENV
+        * $_SERVER
         Un exemple pour verifier l'existence de la clclé "submit" dans le tableau $_POST:
 
         ```
@@ -57,6 +57,7 @@
         ``` 
 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
