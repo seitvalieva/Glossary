@@ -23,12 +23,14 @@
 
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
 
-    - Une variable en programmation est une zone de mémoire nommée pour stoker des données. Elle a donc une valeur et un nom pour accéder à cette valeur. En PHP une variable est préfixée par "$"(dollar).
+    - Une variable en programmation est une zone de mémoire nommée pour stoker des données. Elle a donc une valeur et 
+    un nom pour accéder à cette valeur. En PHP une variable est préfixée par "$"(dollar).
 
 4.	Qu’est-ce que la portée d’une variable ?
 
-    - La portée (scope) d'une variable est la zone de code où elle a été déclarée. La portée variable générale s'applique à tous les blocs de code, y compris les classes.
-    
+    - La portée (scope) d'une variable est la zone de code où elle a été déclarée. La portée variable générale s'applique 
+    à tous les blocs de code, y compris les classes.
+
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
