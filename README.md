@@ -22,6 +22,9 @@
     - Un algorithme est une suite d'instructions pour résoudre un problème.
 
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+
+    - Une variable en programmation est une zone de mémoire nommée pour stoker des données. Elle a donc une valeur et un nom pour accéder à cette valeur. En PHP une variable est préfixée par "$"(dollar).
+
 4.	Qu’est-ce que la portée d’une variable ?
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
