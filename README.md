@@ -14,7 +14,8 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
-    Pour exécuter un script PHP il nous faut installer un environnement côté serveur comme Laragon or MAMP.
+
+    - Pour exécuter un script PHP il nous faut installer un environnement côté serveur comme Laragon or MAMP.
 2.	Qu’est-ce qu’un algorithme ?  
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
 4.	Qu’est-ce que la portée d’une variable ?
