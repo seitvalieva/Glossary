@@ -28,7 +28,7 @@
 
 4.	Qu’est-ce que la portée d’une variable ?
 
-        - La portée (scope) d'une variable est la zone de code où elle a été déclarée. La portée variable générale s'applique 
+        - La portée ou visibilité (scope) d'une variable est la zone de code où elle a été déclarée. La portée variable générale s'applique 
         à tous les blocs de code, y compris les classes.
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
@@ -59,16 +59,24 @@
 
 8.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 
-9.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
-10.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
-11.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
-12.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
-13.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
-14.	Quelle est la différence entre les instructions « require » et « include » en PHP
-15.	Comment effectuer une redirection en PHP ?
-16.	Définir la partie « front-end » et « back-end » d’une application
-17.	Définir le contrôle de version ? Qu’est-ce que Git ?
-18.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+        * string - une chaines de caractères
+  	* int - nombres entiers positifs ou négatifs sans décimale  (sans virgule)
+   * float ou double - nombres décimaux positifs ou négatifs (avec virgule)
+   * boolean - un type qui ne contient que deux valeurs : les valeurs TRUE (vrai) et FALSE (faux)
+   * NULL - il correspond à l’absence de valeur et sert donc à représenter des variables vides
+   * array - tableau stocke des données sous forme de liste
+   * object - un type de données qui permet non seulement de stocker des données, mais également des informations sur la manière de traiter ces données
+     
+10.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+11.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+12.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+13.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+14.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+15.	Quelle est la différence entre les instructions « require » et « include » en PHP
+16.	Comment effectuer une redirection en PHP ?
+17.	Définir la partie « front-end » et « back-end » d’une application
+18.	Définir le contrôle de version ? Qu’est-ce que Git ?
+19.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
 18.	Définir HTML
