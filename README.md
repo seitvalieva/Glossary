@@ -39,17 +39,18 @@
 
         - Une superglabale est une variable pour accéder à toutes les informations pouvant être transmises par le client au server.
         Toutes les superglobales sont du type tableau et sont disponibles dans n'importe quel script PHP. 
-        Elles sont écrites en majuscules et commencent toutes par un underscore ($_GET). 
-        Les superglobales qui existent en PHP:
-        * $_GET
-        * $_POST
-        * $_COOKIE
-        * $_REQUEST
-        * $_SESSION
-        * $_FILES
-        * $_ENV
-        * $_SERVER
+        Elles sont écrites en majuscules et commencent toutes par un underscore ($_GET).
   	
+        Les superglobales qui existent en PHP:
+           - $_GET
+           - $_POST
+           - $_COOKIE
+           - $_REQUEST
+           - $_SESSION
+           - $_FILES
+           - $_ENV
+           - $_SERVER
+     
         Un exemple pour verifier l'existence de la clclé "submit" dans le tableau $_POST:
 
         ```
@@ -59,8 +60,8 @@
 
 8.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 
-        * string - une chaines de caractères
-  	* int - nombres entiers positifs ou négatifs sans décimale  (sans virgule)
+   * string - une chaines de caractères
+   * int - nombres entiers positifs ou négatifs sans décimale  (sans virgule)
    * float ou double - nombres décimaux positifs ou négatifs (avec virgule)
    * boolean - un type qui ne contient que deux valeurs : les valeurs TRUE (vrai) et FALSE (faux)
    * NULL - il correspond à l’absence de valeur et sert donc à représenter des variables vides
