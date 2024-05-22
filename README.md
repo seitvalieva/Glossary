@@ -19,8 +19,8 @@
 
 2.	Qu’est-ce qu’un algorithme ?  
 
-    - Un algorithme est une suite d'instructions pour résoudre un problèmes.
-    
+    - Un algorithme est une suite d'instructions pour résoudre un problème.
+
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
 4.	Qu’est-ce que la portée d’une variable ?
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
