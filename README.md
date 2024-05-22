@@ -1,4 +1,3 @@
-# Glossary
 # GLOSSAIRE
 - [Général](#général)
 - [Front-end](#front-end)
