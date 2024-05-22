@@ -32,7 +32,14 @@
     à tous les blocs de code, y compris les classes.
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+
+        - Une constante est une variable qui porte une valeur fixe et ne peut pas être modifiée.
+
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
+
+        Une superglabale est une variable pour accéder à toutes les informations pouvant être transmises par le client au server.
+        Toutes les superglobales sont du type tableau et sont disponibles dans n'importe quel script PHP.
+        
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
