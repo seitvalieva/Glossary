@@ -51,7 +51,7 @@
            - $_ENV
            - $_SERVER
      
-        Un exemple pour verifier l'existence de la clclé "submit" dans le tableau $_POST:
+        Un exemple pour verifier l'existence de la clé "submit" dans le tableau $_POST:
 
         ```
         if(isset($_POST['submit'])){ }
@@ -69,13 +69,97 @@
    * object - un type de données qui permet non seulement de stocker des données, mais également des informations sur la manière de traiter ces données
      
 10.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+
+        Oui, en PHP, il existe plusieurs types de tableaux (ou "arrays").
+        1. Tableaux indexés - des tableaux où les clés (ou indices) sont des entiers. Les indices commencent à 0.
+                Exemple:
+                        $fruits = ["Pomme", "Banane", "Orange"];
+        2. Tableaux associatifs - des tableaux où les clés sont des chaînes de caractères. Chaque clé est associée à une valeur.
+                Exemple:
+                        $ages = [
+                                "Pierre" => 35, 
+                                "Marie" => 27, 
+                                "John" => 50
+                                ];
+
 11.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+
+        En algorithmie, les structures de contrôle permettent de diriger le flux d'exécution des instructions.
+        1. Les conditions - Elles permettent de choisir parmi plusieurs chemins d'exécution en fonction d'une condition.
+                Exemple:
+                        $age = 18;
+                        if ($age >= 18) {
+                                echo "Vous êtes majeur.";
+                        } else {
+                                echo "Vous êtes mineur.";
+                        }
+        2.  Les conditions multiple - elseif
+                Exemple:
+                        $note = 85;
+                        if ($note >= 90) {
+                        echo "Excellent";
+                        } elseif ($note >= 75) {
+                        echo "Très bien";
+                        } elseif ($note >= 60) {
+                        echo "Bien";
+                        } else {
+                        echo "Peut mieux faire";
+                        }
+        3. switch - permet de comparer une variable à plusieurs valeurs possibles.
+                Exemple:
+                        $jour = "mardi";
+                        switch ($jour) {
+                        case "lundi":
+                                echo "C'est le début de la semaine.";
+                                break;
+                        case "vendredi":
+                                echo "C'est bientôt le week-end.";
+                                break;
+                        default:
+                                echo "Un jour comme un autre.";
+                                break;
+                        }
+        4. Les structures de contrôle itératives - permettent de répéter une suite d'instructions un certain nombre de fois ou tant qu'une condition est vraie.
+        - Boucle while : Répète tant qu'une condition est vraie.
+                Exemple:
+                        $i = 0;
+                        while ($i < 5) {
+                        echo "i vaut : $i\n";
+                        $i++;
+                        }
+        - Boucle do...while : Semblable à while, mais la condition est testée après l'exécution du bloc, garantissant au moins une exécution.
+                Exemple:
+                        $i = 0;
+                        do {
+                        echo "i vaut : $i\n";
+                        $i++;
+                        } while ($i < 5);
+        - Boucle for : Utilisée pour un nombre connu d'itérations.
+                Exemple:
+                        for ($i = 0; $i < 5; $i++) {
+                        echo "i vaut : $i\n";
+                        }
+        - Boucle foreach parcourt les éléments d'un tableau ou d'un objet.
+                Exemple:
+                        $fruits = ["Pomme", "Banane", "Orange"];
+                        foreach ($fruits as $fruit) {
+                        echo "Fruit : $fruit\n";
+                        }
 12.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+                
+                C'est la fonction strlen()
+                Exemple: 
+                        $string = "Bonjour";
+                        $length = strlen($string);
+
 13.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 14.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 15.	Quelle est la différence entre les instructions « require » et « include » en PHP
 16.	Comment effectuer une redirection en PHP ?
 17.	Définir la partie « front-end » et « back-end » d’une application
+
+                Front-end c'est la partie visuelle d'une application écrite en utilisant HTML, CSS, JS et avec lequelle l'utilisateur interagit.
+                Back-end c'est la partie côté serveur d'une application, c'est la logique écrite avec une des langages de programmation (PHP, JS, Python, etc).
 18.	Définir le contrôle de version ? Qu’est-ce que Git ?
 19.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
@@ -242,35 +326,35 @@ h.	Concaténer 2 chaînes de caractères
 142.	Qu'est-ce qu'une assertion dans un test unitaire ?
  
 ## English
-1)	What does JavaScript enable you to do on a website ?
+1)	What does JavaScript enable you to do on a website ? - a
 a.	Add interactive behavior and dynamic content
 b.	Define the layout and design of web pages
 c.	Handle server-side operations
-2)	Which programming language is primarily used for server-side web development ?
+2)	Which programming language is primarily used for server-side web development ? - a, b
 a.	PHP
 b.	JavaScript
 c.	HTML
-3)	What is the purpose of a web browser ?
+3)	What is the purpose of a web browser ? - a
 a.	To render and display web pages
 b.	To execute serve-side code
 c.	To manage databases
-4)	What is the difference between GET and POST methods in HTTP ?
+4)	What is the difference between GET and POST methods in HTTP ? - a
 a.	GET retrieves data from a server, while POST submits data to a server
 b.	GET submits data to a server, while POST retrieves data from a server
 c.	GET and POST methods are interchangeable
-5)	What is the purpose of version control systems (e.g., Git) in web development ?
+5)	What is the purpose of version control systems (e.g., Git) in web development ? - a
 a.	To track changes and manage collaborative development
 b.	To optimize website loading speed
 c.	To handle server-side scripting
-6)	What is the purpose of a framework in web development ?
+6)	What is the purpose of a framework in web development ? - a
 a.	To provide a structured environment for building web applications
 b.	To handle network protocols and data transfer
 c.	To create visual designs and layouts for websites
-7)	What does NoSQL stand for ?
+7)	What does NoSQL stand for ? - a 
 a.	Not Only SQL
 b.	Non-Structured Query Language
 c.	New Object-Oriented Language
-8)	Which of the following is a characteristic of NoSQL databases ?
+8)	Which of the following is a characteristic of NoSQL databases ? - c
 a.	Strict schema enforcement
 b.	Support for complex transactions
 c.	Scalability and flexible data models
