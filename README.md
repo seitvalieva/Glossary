@@ -33,7 +33,8 @@
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 
-        - Une constante est une variable qui porte une valeur fixe et ne peut pas être modifiée.
+        - Une constante est un élément de données nommé comportant une valeur définie, 
+        alors qu'une variable est un élément de données nommé dont la valeur peut changer au cours de l'exécution d'un programme.
 
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 
